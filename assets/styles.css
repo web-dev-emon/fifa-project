@@ -1,0 +1,54 @@
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-h1 {
+    font-size: 70px;
+    color: rgb(235, 235, 243);}
+
+.nav-container{
+
+    width: 540px;
+    height: 80px;
+}
+
+
+
+nav div button {
+    background: red;
+    width: 147px;
+    height: 56px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px; /* Rounded corners */
+   
+}
+/* Add to styles.css */
+.banner {
+    background: #000;
+    width: 1240px;
+    margin:  auto; /* Center the banner */
+    color: #fff;    /* Make text white for contrast */
+    padding: 20px;.
+    border-radius: 50px; /* Rounded corners */
+    
+}
+
+.banner-img-animate {
+    position: relative;
+    animation: slideRight 0.3s ease-out;
+}
+
+@keyframes slideRight {
+    from {
+        left: -100px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
