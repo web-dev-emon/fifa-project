@@ -33,22 +33,39 @@ nav div button {
     margin:  auto; /* Center the banner */
     color: #fff;    /* Make text white for contrast */
     padding: 20px;.
-    border-radius: 50px; /* Rounded corners */
+    borde /* Rounded corners */
     
 }
 
-.banner-img-animate {
-    position: relative;
-    animation: slideRight 0.3s ease-out;
+/* main styles */
+.button-container-main {
+    margin: 30px;
+    background: #000;
+    height: 250px;
+    width: 250px;
+    align-content: center;
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
 }
+.box-button{
+    background: white;
+    width: 250px;
+    height: 68px;
+    color: #000;
+    font-size: 16px;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px; /* Rounded corners */
+   margin-bottom: 20px;
+}
+.box-button-2{
 
-@keyframes slideRight {
-    from {
-        left: -100px;
-        opacity: 0;
-    }
-    to {
-        left: 0;
-        opacity: 1;
-    }
+  background: red;
+    width: 250px;
+    height: 68px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px;   
 }
